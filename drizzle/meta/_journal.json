@@ -1,0 +1,27 @@
+{
+  "version": "7",
+  "dialect": "mysql",
+  "entries": [
+    {
+      "idx": 0,
+      "version": "5",
+      "when": 1767017848303,
+      "tag": "0000_chunky_wolfsbane",
+      "breakpoints": true
+    },
+    {
+      "idx": 1,
+      "version": "5",
+      "when": 1767018268023,
+      "tag": "0001_mysterious_cerebro",
+      "breakpoints": true
+    },
+    {
+      "idx": 2,
+      "version": "5",
+      "when": 1785569849941,
+      "tag": "0002_giant_agent_brand",
+      "breakpoints": true
+    }
+  ]
+}
