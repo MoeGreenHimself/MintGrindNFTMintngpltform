@@ -44,7 +44,7 @@ async function deployToTestnet(chainName, rpcUrl, chainId) {
       initialOwner: OWNER_ADDRESS,
       targetChainId: chainId,
       payees: [OWNER_ADDRESS],
-      shares:,
+      shares: [100],
       paymentToken: "0x0000000000000000000000000000000000000000" // address(0) = native token
     };
 
