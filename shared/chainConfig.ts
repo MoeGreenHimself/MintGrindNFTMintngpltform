@@ -85,12 +85,15 @@ export const CHAINS: Record<ChainId, ChainConfig> = {
       symbol: "ETH",
       decimals: 18,
     },
-    contractAddress: "0x0000000000000000000000000000000000000000",
+    contractAddress: "0xf85c82ceded6941d87d88e50d25f88f2370fc0da",
     signerDomain: {
       name: "MintGrindNFT",
       version: "1.0.5",
       chainId: 11155111,
     },
+        gasSettings: {
+          gasLimit: "20000000",
+        },
   },
 
   // Polygon Amoy Testnet
